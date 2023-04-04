@@ -1,0 +1,4 @@
+Man ls tiene muchas opciones pero las 3 que se pueden usar son 
+ls subdir.- muestra el contenido del subdirectorio subdir
+ls -cr.- Muestra directorios ordenado inversamente por fechas
+ls -a.- Muestra todos los ficheros incluyendo algunos dque ordinariamente estan ocultos para el usuario (aquellos que comienzan por un punto). se recuerda que el fichero punto indica el direcctorio actual y el doble punto .. el directorio padre que contiene al actual 

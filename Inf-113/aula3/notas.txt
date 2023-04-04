@@ -1,0 +1,7 @@
+Describa lo que hace cada comando
+-cat arquivo.txt | sort.- permite ordenar los registros o l+ineas de uno o más archivos esta se puede hacer por el primer caracter o primer campo de la linea
+-cat arquivo.txt | sort | uniq.- lee el arquivo.txt de forma ordenada y elimina las lineas repetidas 
+-cat arquivo.txt | sort | uniq -c .- lee el arquivo.txt de forma ordenada, eliminando las parlabras o lineas repetidas indica junto a cada linea el numero de veces que aparece 
+-cat aquivo.txt | sort | head -n 3 muestra la pprimera parte de arquivo.txt por defecto e imprime las 3 primeras lineas
+-cat arquivo.txt | sort | tail -n3 muentra la las ultimas 3 lineas 
+-cat arquivo.txt | sort | head -n 3 > tres_primeros.txt copia la informacion ordenada y solamente las 3 primeras partes y lo copia en el nuevo archivo tres_primeros.txt

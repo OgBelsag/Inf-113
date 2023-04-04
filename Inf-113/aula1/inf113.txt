@@ -1,0 +1,8 @@
+-Resuma como funciona los siguientes comandos:
++cp.- Copia archivos y directorios, por defecto sobreescribe ficheros del mismo nombre cp<origen><destino>
++rm.- Borra ficheros y/o directorios rm [opcion] <fichero>
++mv.- Renombra o mueve ficheros mv[opcion]<origen><destino>
++mkdir.- Crea un directorio mkdir [opcion]<directorio>
++rmdir.- borra directorios rmdir[opcion]<directorio>
++touch.- cambia la fecha y hora del último acceso modificacion touch [opciones] [fecha] <fichero>
++ls.- Muestra el contenido de un directorio ls<nombre directorio>

@@ -1,0 +1,5 @@
+lea los manuales de los comandos cp, mkdir e rm y destaque una opcion que pueda ser util de cada manual 
+cp -p preserva dueño frupo permuso y fecha 
+mkdir -m establecer el modo de archivo (como en chmod), no a=rwx - umask
+rm -v verboso, muestra nombre de cada archivo eliminado
+

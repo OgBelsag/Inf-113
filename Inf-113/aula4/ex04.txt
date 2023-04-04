@@ -1,0 +1,1 @@
+El comando top sirve muestra una vista de los procesos de ejecucion en linux en tiempo real y muesta las tareas administradas por el kernel tambien muestra un resumen de informacion del sistea para ver la utilizacion de recursos y uso de CPU
