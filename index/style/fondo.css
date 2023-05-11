@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+    background-color: rgb(206, 169, 169);
+    background-image: url(style/fondo.webp);
+    background-size: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+	background-color: #f2f2f2;
+	padding: 25px;
+}
+nav a{
+	display: inline-block;
+	text-decoration: none;
+	color: #696969;
+	margin: 0 30px;
+	padding: 5px 15px;
+	border-radius: 30px;
+
+}
+nav a:hover {
+	background-color: #000;
+	color: #fff;
+}
+.nav > li{
+	text-decoration: none;
+	display: block;
+	float: left;
+}
+.nav li ul{
+	display: none;
+	position: absolute;
+	min-width: 200px;
+}
+.nav li ul li{
+	display: block;
+}
+.nav li ul li ul {
+	right: -120px;
+	top: 0px;
+}
+.encabezado-img{
+	background-image: url();
+	background-size: cover;
+	height: 450px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+}
+.encabezado-img p{
+	font-size: 18px;
+}
+.encabezado-img h1{
+	font-size: 50px;
+	padding: 15px 0;
+
+}
+.p1{
+float: right;
+}
+.p2{
+	display: block;
+	width: 700px;
+	min-height: 400px;
+	background: black;
+	color: white;
+	float: left;
+	margin: 0;
+}
+aside,#seccion{
+	background: #f2f2f2;
+}
